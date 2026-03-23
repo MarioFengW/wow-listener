@@ -10,7 +10,6 @@ import java.util.concurrent.ExecutionException;
 
 @RestController
 @RequestMapping("/api/pokemon")
-@CrossOrigin(origins = "*")
 public class PokemonController {
 
     private final PokemonService pokemonService;
